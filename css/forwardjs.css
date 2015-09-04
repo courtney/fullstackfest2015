@@ -21,7 +21,7 @@ font-family: 'Roboto', sans-serif;
 -webkit-font-smoothing: antialiased;
 }
 
-.reveal a, .reveal a:not(.image) {
+.reveal a, .reveal a:not(.image), .reveal a:hover {
 	color: #333;
 }
 
@@ -274,4 +274,8 @@ h2#dev-text { left: 6em; top: 0px; opacity: 0; font-family: monospace; }
 	margin: 0 auto;
 	position: relative;
 	display: none;	
+}
+
+.reveal .slides a:hover {
+  color: red;
 }
